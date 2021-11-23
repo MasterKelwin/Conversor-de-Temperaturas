@@ -1,0 +1,2 @@
+Criei este conversor para aprimorar minhas habilidades usando HTML, CSS e JS em conjunto.
+Este é meu segundo projeto e nele aprendi alguns conceitos sobre alinhamento vertical, horizontal, flexbox, position e suas 5 variáveis, estilização de botão e o encurtamento de algumas variáveis dentro do Javascript.

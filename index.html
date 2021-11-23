@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <h1>CONVERSOR DE TEMPERATURAS</h1>
+    <div class="container" id="container">
+        <h3>Descubra a temperatura em Celsius, Kelvin's ou Fahrenheit</h3>
+        <p>Insira o valor na temperatura que deseja</p>
+        <label for="valorX"></label>
+        <input  id="valor" type="number" id="valorTemperatura"> <br> <br>
+        <button type="submit" onclick="converterCelsiusParaFahrenheit()">Celsius para Fahrenheit</button>
+        <button type="submit" onclick="converterCelsiusParaKelvin()">Celsius para Kelvin's</button> <br>
+        <button type="submit" onclick="converterFahrenheitParaCelsius()">Fahrenheit para Celsius</button>
+        <button type="submit" onclick="converterFahrenheitParaKelvin()">Fahrenheit para Kelvin's</button> <br>
+        <button type="submit" onclick="converterKelvinParaCelsius()">Kelvin's para Fahrenheit</button>
+        <button type="submit" onclick="converterKelvinParaFahrenheit()">Kelvin's para Fahrenheit</button>
+        <h2 id="resultado"></h2>
+    </div>
+
+<div class="contato" id="contato">
+    <h2>Contato:</h2>
+        <a href="https://www.instagram.com/kelwin.hollunder/?hl=pt-br" target="_blank" rel="external"><img src="assets/Kelwin.png" alt="Homem sorrindo"></a>
+</div>
+</body>
+</html>
