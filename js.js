@@ -5,7 +5,7 @@ function converterCelsiusParaFahrenheit() {
     var valorEmCFahrenheit = ((valor * 1.8) + 32).toFixed(2)
     console.log(valorEmCFahrenheit)
     var resultado = document.getElementById("resultado")
-    var resultadoFinal = "O resultado é °" + valorEmCFahrenheit + "F"
+    var resultadoFinal = "O resultado é " + valorEmCFahrenheit + "°F"
     resultado.innerHTML = resultadoFinal 
 }
 
@@ -25,7 +25,7 @@ function converterFahrenheitParaCelsius() {
     var valorEmFCelsius = ((valor - 32) / 1.8).toFixed(2)
     console.log(valorEmFCelsius)
     var resultado = document.getElementById("resultado")
-    var resultadoFinal = "O resultado é °" + valorEmFCelsius + "C"
+    var resultadoFinal = "O resultado é " + valorEmFCelsius + "°C"
     resultado.innerHTML = resultadoFinal 
 }
 
@@ -45,7 +45,7 @@ function converterKelvinParaCelsius() {
     var valorEmKCelsius = (valor - 273.15).toFixed(2)
     console.log(valorEmKCelsius)
     var resultado = document.getElementById("resultado")
-    var resultadoFinal = "O resultado é °" + valorEmKCelsius + "C"
+    var resultadoFinal = "O resultado é " + valorEmKCelsius + "°C"
     resultado.innerHTML = resultadoFinal 
 }
 
@@ -55,6 +55,6 @@ function converterKelvinParaFahrenheit() {
     var valorEmKFahrenheit = (1.8 * (valor - 273.15) + 32).toFixed(2)
     console.log(valorEmKFahrenheit)
     var resultado = document.getElementById("resultado")
-    var resultadoFinal = "O resultado é °" + valorEmKFahrenheit + "F"
+    var resultadoFinal = "O resultado é " + valorEmKFahrenheit + "°F"
     resultado.innerHTML = resultadoFinal 
 }
